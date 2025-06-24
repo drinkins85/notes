@@ -13,8 +13,6 @@ const replacers: ReplacersType = {
   PLCERR: () => { throw new Error(); },
 };
 
-console.log('ttt-------' , typeof replaceMultiplePlaceholders);
-
 test('should replace placeholders via replacers functions', () => {
   expect(replaceMultiplePlaceholders(
     'https://site.com?timestamp=[PLC1]&random=prefix-[PLC2]-postfix',

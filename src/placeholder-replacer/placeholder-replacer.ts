@@ -60,3 +60,4 @@ const strWithReplacedValues = replaceMultiplePlaceholders(
   }
 );
 console.log(`${strWithPlaceholder} -> ${strWithReplacedValues}`);
+// https://site.com?timestamp=[TS]&random=prefix-[RND]-postfix -> https://site.com?timestamp=1750766044999&random=prefix-7627-postfix
